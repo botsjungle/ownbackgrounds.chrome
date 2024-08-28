@@ -1,0 +1,10 @@
+#new-tab-body {
+    margin: 0;
+}
+
+.full-page-img {
+    width: 100vw; /* Cover full viewport width */
+    height: 100vh; /* Cover full viewport height */
+    object-fit: cover; /* Maintain aspect ratio and cover */
+    display: block; /* Prevent extra space below image */
+}
