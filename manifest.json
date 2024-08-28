@@ -1,9 +1,12 @@
 {
-  "manifest_version": 3,
-  "name": "Own Backgrounds",
-  "description": "Change the new tab background to any background",
-  "version": "0.1",
-  "action": {
-    "default_icon": "images/icon.png"
-  }
+    "manifest_version": 3,
+    "name": "Own Backgrounds",
+    "description": "Change the new tab background to any background",
+    "version": "0.1",
+    "action": {
+        "default_icon": "images/icon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "pages/newtab.html"
+    }
 }
